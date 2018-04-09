@@ -1,0 +1,9 @@
+Building OGSPay
+
+See doc/readme-qt.rst for instructions on building OGSPay-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of OGSPay.
+
+See doc/build-*.txt for instructions on building OGSPayd,
+the intended-for-services, no-graphical-interface, reference
+implementation of OGSPay.

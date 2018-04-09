@@ -1,0 +1,34 @@
+src/*.exe
+src/OGSPay
+src/OGSPayd
+src/test_OGSPay
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.OGSPay
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+OGSPay-qt
+OGSPay-Qt.app
+
+# Unit-tests
+Makefile.test
+OGSPay-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
